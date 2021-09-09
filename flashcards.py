@@ -7,6 +7,15 @@ class Ports:
         i = random.randrange(0,2)
         return i
 class MultipleChoice:
-    q1 = mcq(q="What is 1+1",a1="3",a2="2",a3="I dunno man....",ca="2")
-    questions=[q1]
+    #Not totally sure, but some sort of JSON might be more efficient.
+    q1 = mcq(q=,a1=,a2=,a3=,ca=)
+    q2= mcq(q=,a1=,a2=,a3=,ca=)
+    q3= mcq(q=,a1=,a2=,a3=,ca=)
+    q4= mcq(q=,a1=,a2=,a3=,ca=)
+    q5= mcq(q=,a1=,a2=,a3=,ca=)
+    q6= mcq(q=,a1=,a2=,a3=,ca=)
+    q7= mcq(q=,a1=,a2=,a3=,ca=)
+    q8= mcq(q=,a1=,a2=,a3=,ca=)
+    q9= mcq(q=,a1=,a2=,a3=,ca=)
+    questions=[q1,q2,q3,q4,q5,q6,q7,q8,q9]
 
