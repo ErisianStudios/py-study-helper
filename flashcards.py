@@ -31,5 +31,19 @@ class MultipleChoice:
     q10=mcq(q="What is the transmission distance supported by Single-Mode fiber optic?",a1="Approximately 3,000 feet",a2="Approximately 20 miles",a3="Approximately 50 feet",a4="Approcimately 74 miles.",a5="Approximately 35 miles.",ca="b")
 
     q11=mcq(q="You turn on your computer to connect to a computer named COMP5 on your development subnet, but you are unable to do so. However you can connect to all of the other computers in the research subnet, and other research computers can connect to COMP5 on the development subnet. What would explain your computer's communications problem?",a1="An incompatible network protocol listed first in the binding order.",a2="A loose network interface card",a3="An incorrect IP address",a4="An incorrect default gateway",a5="Maybe it's just introverted.",ca="d")
+    
+    q12=mcq(q="Your laser printer's charge or primary corona is having problems. What is the main purpose of this laser printer component?",a1="To melt the toner into the paper.",a2="To coordinate the components to print a page.",a3="To write the image on the drum",a4="To charge the paper.",a5="To apply a uniform negative charge to the photosensitive drum.",ca="d")
+    
+    q13=mcq(q="Which of the following is NOT part of routine maintenance for thermal printers.",a1="Removing debris",a2="Calibrating the printer.",a3="Cleaning the heating element.",a4="Replacing the paper.",a5="Replacing the heating element.",ca="b")
 
-    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11]
+    q14=mcq(q="On which of these components can you specifically enable overclocking?",a1="HDD, Motherboard, System Bus",a2="Processor, RAM, Motherboard.",a3="Processor, RAM, System Bus",a4="Processor, Ram",a5="System Bus, Motherboard.",ca="C")
+    
+    q15=mcq(q="To which device should a WAP be connected?",a1="Firewall",a2="DSL 'modem'",a3="Hub", a4="Router",a5="Switch",ca="c")
+
+    q16=mcq(q="Which components are usually included in the toner cartridge of a laser printer.",a1="Photosensitive Drum, Transfer Corona",a2="Electrostatically Charged Toner, Fuser",a3="Photosensitive Drum, Electrostatically Charged Toner.",a4="Transfer Corona, Photosensitive Drum",a5="Transfer corona, Electrostatically Charged Toner.",ca="e")
+
+    q17=mcq(q="Which RAM module uses 168 pins?",a1="RDRAM",a2="SIMM",a3="DIPP",a4="DIMM",a5="SIPP",ca="d")
+
+
+    
+    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17]
