@@ -3,9 +3,15 @@ import os
 from flashcards import Ports
 from flashcards import MultipleChoice as mp
 
+ports: bool = False
+mcq: bool = False
+qa: int = 0
 
 
 def main():
+    question_time()    
+
+def question_time():
     clear_console()
     qa = random.randrange(0,2)
     if qa == 0:
@@ -13,8 +19,9 @@ def main():
     elif qa == 1:
         show_multiple_choice()
     else:
-        print("DEBUG: qa out of range")
-    main()
+        print("Nope.")
+        wait = input("")
+    question_time()
 
 def clear_console():
     command = "clear"
