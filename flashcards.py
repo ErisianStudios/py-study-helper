@@ -6,7 +6,6 @@ class Ports:
     def question_or_answer():
         i = random.randrange(0,2)
         return i
-        #ADDED THIS JUST TO MOVE THE GIT
 class MultipleChoice:
     #Not totally sure, but some sort of JSON might be more efficient.
     q0= mcq(q="You need to install a TV tuner adapter in a computer. All of the following steps are necessary EXCEPT...",
