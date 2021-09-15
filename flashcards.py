@@ -231,5 +231,44 @@ class MultipleChoice:
         a4="1 and 2",
         a5="",
         ca="c")
-        
-    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25,q26]
+    q28=mcq(q="Which of the following wireless authentication methods separates authentication and authorization into two different processes?",
+        a1="TACAS",
+        a2="RADIUS",
+        a3="MFA",
+        a4="SFA",
+        a5="WPA2",
+        ca="a")
+
+    q29=mcq(q="Which of these is NOT based on the concept of 'Something you have'?",
+        a1="Hardware Token",
+        a2="Server Lock",
+        a3="Biomentric Lock",
+        a4="Door Lock",
+        a5="",
+        ca="c")
+
+    q30=mcq(q="Which AD logical security concept would you impliment to best protect a user's data in the event of a hard drive crash?",
+        a1="Domain Membership",
+        a2="Organizational Unity",
+        a3="Login Script",
+        a4="Folder Redirection",
+        a5="",
+        ca="d")
+
+    q31=mcq(q="A user requests that his WIndows 7 computer display dates using the yyyy-mm-dd format. Where should you go to make this change using the least administrative effort?",
+        a1="Control Panel -> Clock, Language and Region -> Region and Language",
+        a2="Control Panel -> Date, Time Language and Region Options -> Date and Time",
+        a3="Control Panel -> Clock, Language and Region -> Date and Time",
+        a4="Control Panel -> Date, Time Language and REgional Options -> Regional and Language Options",
+        a5="",
+        ca="a")
+
+    q32=mcq(q="Recently several employees' email accounts were hacked after they visited the local coffee shop and used their mobile devices there. Which type of attack most likely occured?",
+        a1="Zero-Day attack",
+        a2="Shoulder Surfing",
+        a3="Zombie",
+        a4="Tailgating",
+        a5="Man-In-The-Middle",
+        ca="b")
+
+    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25,q26,q27,q28,q29,q30,q31,q32]
