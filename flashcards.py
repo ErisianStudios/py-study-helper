@@ -270,5 +270,19 @@ class MultipleChoice:
         a4="Tailgating",
         a5="Man-In-The-Middle",
         ca="b")
+    q33=mcq(q="How many channels are supported by the 2.4GHz WiFi networks?",
+        a1="8",
+        a2="4",
+        a3="11",
+        a4="16",
+        a5="24",
+        ca="d")
+    q34=mcq(q="You are trying to establish a connection between your desktop and a device with a serial port. You are unable to establish a connetion, which of the following can be the probable cause?",
+        a1="Incorrect Communication Parameters",
+        a2="Software Conflicts",
+        a3="Faulty Serial Cable",
+        a4="Incorrect Data Cable",
+        a5="All of the Above",
+        ca="e")
 
-    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25,q26,q27,q28,q29,q30,q31,q32]
+    questions=[q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24,q25,q26,q27,q28,q29,q30,q31,q32,q33,q34]
